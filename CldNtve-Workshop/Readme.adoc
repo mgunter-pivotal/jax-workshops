@@ -1,0 +1,7 @@
+= Links to share
+
+
+Please see https://github.com/joshlong/cloud-native-workshop for many code examples from Josh Long talk on Cloud native Java at Spring One Platform -video here: https://www.youtube.com/watch?v=5q8B6lYhFvE.
+
+Please see https://www.youtube.com/watch?v=3dcTqJYAXUk&list=PLAdzTan_eSPQ1fuLSBhyB4eEZF7JQM0Mx&index=80 for the video of Roy Clarkson and Craig Wall's talk at Spring One Platform on Spring Cloud Services.
+
