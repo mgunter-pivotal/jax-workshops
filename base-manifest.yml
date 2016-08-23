@@ -1,0 +1,4 @@
+---
+domain: cfapps.io
+memory: 512M
+instances: 1
