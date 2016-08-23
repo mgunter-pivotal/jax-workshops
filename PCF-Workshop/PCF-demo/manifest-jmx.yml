@@ -1,0 +1,10 @@
+---
+inherit: ../../base-manifest.yml
+applications:
+- name: pcfdemo-jmx
+  memory: 512M
+  instances: 1
+  host: pcfdemo-meg-jmx
+  path: ./target/pcfdemo.war
+  env:
+   JBP_CONFIG_JMX: '{enabled: true}'
