@@ -1,0 +1,15 @@
+cf push my-spring-music-59 -p CloudNativeArchitectureWorkshop/Sample-apps/spring-music/spring-music.war
+
+cf push hb -p hello_apps -b staticfile_buildpack -i 5
+
+cf push hg -p hello_apps -b staticfile_buildpack -i 1
+
+curl hb.cfapps.io/hello-color.html
+
+cf map-route hg cfapps.io --hostname h
+
+curl h.cfapps.io/hello-color.html
+
+
+for i in `seq 1 20`; do sleepcurl.sh; done
+
